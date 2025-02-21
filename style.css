@@ -1,0 +1,170 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: beige;
+}
+
+.header>img{
+    height: 80px;
+    width: 80px;
+}
+
+.links{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.links>a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    transition: transform 1s;
+}
+
+.links>a:hover{
+    transform: scale(2,2);
+}
+
+#home{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.personal{
+    padding: 10%;
+}
+
+.personal>h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.personal span{
+    color: brown;
+    
+}
+
+.personal>p{
+    text-align: justify;
+    margin-bottom: 30px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.personal>a{
+    text-decoration: none;
+    border: 3px solid black;
+    padding: 20px;
+    background-color: brown;
+    color: aquamarine;
+    border-radius: 5px;
+    box-shadow: 5px 5px bisque;
+}
+
+.homeimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeimg>img{
+    transform: scaleX(1.5,1.5);
+    height: 427px;
+    width: 325px;
+}
+
+
+.abtcontent{
+    padding: 10px;
+}
+
+.abtcontent>h4{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.abtcontent span{
+    color: brown;
+    
+}
+
+.abtcontent>p{
+    font-size: 15px;
+    text-align: justify;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 50px;
+}
+
+.abtimg>img{
+    height: 500px;
+    width: 700px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.edu>h4{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.edu>h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(139, 0, 102);
+    
+}
+
+.edu span{
+    color: brown;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 60px;
+}
+
+.skill>h4{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.skill>h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    color: brown
+}
